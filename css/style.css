@@ -295,6 +295,7 @@ address {
 .portfolio-info-container {
   padding: 32px 16px;
   border: 1px solid var(--cornflower, #e7e9fc);
+  border-top: none;
 }
 
 .portfolio-list-item {
@@ -306,7 +307,6 @@ address {
   flex-shrink: 0;
   margin-top: 72px;
   background: var(--white, #fff);
-  border-top: none;
 }
 
 /* Section-4 */
