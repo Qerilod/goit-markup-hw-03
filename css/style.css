@@ -26,8 +26,7 @@ img {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 
 body {
@@ -140,6 +139,9 @@ address {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 46px;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button-con {
   background-color: #4d5ae5;
@@ -152,7 +154,6 @@ address {
   border: none;
   min-width: 169px;
   display: block;
-  display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
   height: 56px;
@@ -160,6 +161,8 @@ address {
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
 }
 .button-con:hover,
 .button-con:focus {
@@ -197,7 +200,6 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  margin-bottom: 8px;
 }
 
 /* Section-2 */
@@ -208,6 +210,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .qualities-p-con {
   font-size: 16px;
@@ -291,8 +294,8 @@ address {
 
 .portfolio-info-container {
   padding: 32px 16px;
-
   border-top: none;
+  border: 1px solid #e7e9fc;
   margin-bottom: 8px;
 }
 
