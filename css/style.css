@@ -42,13 +42,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
 }
 .nav-flex-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 
 .address-flex-container {
